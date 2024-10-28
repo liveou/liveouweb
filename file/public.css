@@ -1,0 +1,94 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #e0e0e0;
+}
+
+.head-biaoti{
+  margin: 20px 10px 10px 10px;
+  padding: 5px 15px 10px 5px;
+  height: 60px;
+}
+.head-biaoti-left{
+  float: left;
+  width:60%;
+}
+.head-biaoti-reft{
+  float: right;
+  width: 40%;
+}
+
+
+.button-daohang {
+    color: #090909;
+    height: 50px;
+    width: 150px;
+    padding: 0.7em 1.5em;
+    font-size: 18px;
+    margin-left: 20px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.5s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  }
+  
+  .button-daohang:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+    transform: scale(0.95);
+  }
+
+  .btn {
+    position: relative;
+    font-size: 17px;
+    width: 160px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6em;
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: black;
+    background-color: #e8e8e8;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.7s;
+  }
+  
+  .btn::after {
+    background-color: #fff;
+  }
+  
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  

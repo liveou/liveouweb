@@ -1,0 +1,53 @@
+.biaoti {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 100px;
+  }
+.biaoti-p1 {
+    font-size: 70px;
+    font-family: 楷体;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+.biaoti-p2 {
+    font-size: 25px;
+  font-family: 仿宋;
+  font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+
+.mail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .mail-content {
+    line-height: 2;
+    color: #333;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow: hidden;
+  }
+  
+  .table-row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    text-align: center;
+  }
+  
