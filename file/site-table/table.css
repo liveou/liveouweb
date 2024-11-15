@@ -1,0 +1,29 @@
+.mail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .mail-content {
+    line-height: 2;
+    color: #333;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    overflow: hidden;
+  }
+  
+  .table-row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-cell {
+    padding: 10px;
+    text-align: center;
+  }
+  
